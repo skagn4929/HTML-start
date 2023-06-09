@@ -1,5 +1,10 @@
 # HTML-start
 
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
 <h1>HTML</h1>
 <p>
   Hypertext Markup Language (HTML) is the standard markup language for
