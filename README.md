@@ -65,25 +65,59 @@ ex...<br>ex...
   <li>JavaScript</li>
 </ol>
 ```
-※ `<ul>` : unordered list, `<ol>` : ordered list
+4. `<ul>` : unordered list, `<ol>` : ordered list
+
+- `<title>` - 웹 페이지의 제목
+```html
+<title>WEB1 - html</title>
+```
+
+- `<meta>` - 웹 페이지에 대한 정보를 제공
+  - utf-8로 웹 페이지를 열어라!
+```html
+<meta charset="utf-8">
+```
+
+- `<body>` 와 `<head>` 를 감싸는 `<html>`  
+
+본문은 `<body>` 태그로 묶고, 본문을 설명하는 태그는 `<head>` 로 묶는다.   
+그리고 이 둘을 `<html>` 태그로 감싼다.   
+마지막으로 이 `<html>` 태그 위에 관용적으로 이 문서에는 HTML이 담겨 있다는 뜻에서 `<!DOCTYPE HTML>` 태그를 쓴다.
+```html
+<!doctype html>
+<html>
+  <head>
+    <title>WEB1 - html</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <ol>
+     <li>HTML</li>
+     <li>CSS</li>
+     <li>JavaScript</li>
+    </ol>
+    <h1>HTML</h1>
+    ...생략...
+  </body>  
+</html>
+```
 
 ## 2. `<img>` 태그와 속성
 이미지를 웹 페이지에 포함시킬 때 사용하는 태그
-- `<img>`태그에 src 속성 설정   
+- `<img>`태그에 src 속성 추가   
   - 어떤 이미지인지 알려주도록 약속된 속성
 ```html
 <img src="coding.jpg">
 ```
 
-- `<img>`태그에 width 속성 설정   
+- `<img>`태그에 width 속성 추가   
   - 이미지 크기 조절
 ```html
 <img src="coding.jpg" width="100%">
 ```
 
-
-
-
+## 3. `<a>` 태그와 속성
+링크를 거는 태그
 
 
 
