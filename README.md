@@ -106,20 +106,37 @@ ex...<br>ex...
 
 ## 4. `<img>` 태그와 속성
 이미지를 웹 페이지에 포함시킬 때 사용하는 태그
-- `<img>`태그에 src 속성 추가   
+- `<img>` 태그에 src 속성 추가   
   - 어떤 이미지인지 알려주도록 약속된 속성
 ```html
 <img src="coding.jpg">
 ```
 
-- `<img>`태그에 width 속성 추가   
+- `<img>` 태그에 width 속성 추가   
   - 이미지 크기 조절
 ```html
 <img src="coding.jpg" width="100%">
 ```
 
 ## 5. `<a>` 태그와 속성
-링크를 거는 태그
+링크를 거는 태그. anchor의 약자. 
+- `<a>`태그에 href 속성 추가
+  - href는 **H**yperText **Ref**erence의 약자
+```html
+<a href="https://www.w3.org/TR/html5/">Hypertext Markup Language (HTML)</a>
+```
+
+- `<a>`태그에 target 속성 추가
+  - 새 탭에서 열리게 해주는 속성
+```html
+<a href="https://www.w3.org/TR/html5/" target="_blank">Hypertext Markup Language (HTML)</a>
+```
+
+- `<a>`태그에 title 속성 추가
+  - 링크를 클릭하기 전에 툴팁을 표시해주는 속성
+```html
+<a href="https://www.w3.org/TR/html5/" target="_blank" title="HTML8 specification">Hypertext Markup Language (HTML)</a>
+```
 
 
 
