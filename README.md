@@ -138,5 +138,25 @@ ex...<br>ex...
 <a href="https://www.w3.org/TR/html5/" target="_blank" title="HTML8 specification">Hypertext Markup Language (HTML)</a>
 ```
 
+## 6. 클라이언트와 서버
+![서버와 클라이언트3](https://github.com/skagn4929/HTML-start/assets/134206709/9523a0b4-e2d2-4a60-b458-eda02d3a5a36)
+
+## 7. 참고
+- [DISQUS](https://disqus.com/)   
+
+댓글 기능 추가
+
+- [TAWK](https://www.tawk.to/)   
+
+채팅 기능 추가
+
+## 8. 결과물
+- https://skagn4929.github.io/HTML-start/1.html
+
+![web1](https://github.com/skagn4929/HTML-start/assets/134206709/58a1e2b5-4e29-4391-b2e7-87c3eef497e0)
+
+
+
+
 
 
