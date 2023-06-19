@@ -141,7 +141,7 @@ ex...<br>ex...
 ## 6. 클라이언트와 서버
 ![서버와 클라이언트3](https://github.com/skagn4929/HTML-start/assets/134206709/9523a0b4-e2d2-4a60-b458-eda02d3a5a36)
 
-## 7. 참고
+## 7. 기타 기능 추가
 - [DISQUS](https://disqus.com/)   
 
 댓글 기능 추가
