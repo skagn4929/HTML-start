@@ -1,7 +1,7 @@
 # WEB - HTML
 - [HTML](https://www.opentutorials.org/course/3084)
 
-본 강의를 통해 HTML을 학습하고 VSC를 사용하여 실습한 내용입니다.
+본 강의를 통해 HTML을 학습하고 정리한 내용입니다.
 
 ---
 ## 1. 기본 문법 - 태그
