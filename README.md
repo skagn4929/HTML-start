@@ -5,50 +5,47 @@
 
 ---
 ## 1. 기본 문법 - 태그
-바탕화면에 **WEB** 디렉터리 생성 후 VSC로 열기
-
-- *1.html* 파일 생성 후 텍스트 입력   
+1. `<strong>` - 굵게 강조  
 ```html
-Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications.
+<strong>HTML</strong>
 ```
 
-- `<strong>` - 굵게 강조  
+2. `<u>` - 밑줄 긋기
 ```html
-Hypertext Markup Language (HTML) is the standard markup language for <strong>creating web pages</strong> and web applications.
+<u>HTML</u>
 ```
 
-- `<u>` - 밑줄 긋기
-```html
-Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.
-```
-
-- `<h1> ~ <h6>` - 제목 만들기 ※ 숫자가 커질수록 글씨는 작아진다.   
+3. `<h1> ~ <h6>` - 제목 태그 ※ 숫자가 커질수록 글씨는 작아진다.   
 ```html
 <h1>HTML</h1>
-Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.
+<h2>HTML</h2>
+<h3>HTML</h3>
+<h4>HTML</h4>
+<h5>HTML</h5>
+<h6>HTML</h6>
 ```
 
-- `<br> vs <p>` - 줄바꿈   
+4. `<br> vs <p>` - 줄바꿈   
 
-`<br>` 태그는 단지 줄바꿈이라는 시각적인 의미만 가지고 있기 때문에 닫는 태그가 없다.   
+- `<br>` 태그는 단지 줄바꿈이라는 시각적인 의미만 가지고 있기 때문에 닫는 태그가 없다.   
 ```html
-ex...<br>ex...
+...생략...<br>...생략...
 ```   
-`<p>` 태그는 단락을 표현할 때 쓰며, 닫는 태그가 있다.     
+- `<p>` 태그는 단락을 표현할 때 쓰며, 닫는 태그가 있다.     
 ```html
-<p>ex...</p><p>ex...</p>
+<p>...생략...</p><p>...생략...</p>
 ```
 
 ## 2. 부모 태그와 자식 태그   
 태그가 서로 포함 관계에 있을 때 포함하고 있는 태그를 부모 태그, 포함된 태그를 자식 태그라 한다.
-- `<li>` - 목차 또는 목록
+1. `<li>` - 목차 또는 목록
 ```html
 <li>1. HTML</li>
 <li>2. CSS</li>
 <li>3. JavaScript</li>
 ```
 
-- `<li>` 태그의 부모 태그인 `<ul>` 태그 추가
+2. `<li>` 태그의 부모 태그인 `<ul>` 태그 추가
 ```html
 <ul>
   <li>1. HTML</li>
@@ -57,7 +54,7 @@ ex...<br>ex...
 </ul>
 ```
 
-- `<ul>` 태그를 `<ol>` 태그로 변경
+3. `<ul>` 태그를 `<ol>` 태그로 변경
 ```html
 <ol>
   <li>HTML</li>
@@ -65,24 +62,22 @@ ex...<br>ex...
   <li>JavaScript</li>
 </ol>
 ```
-
 - `<ul>` : unordered list, `<ol>` : ordered list
 
 ## 3. 문서의 구조
-- `<title>` - 웹 페이지의 제목
+1. `<title>` - 웹 페이지의 제목
 ```html
 <title>WEB1 - html</title>
 ```
 
-- `<meta>` - 웹 페이지에 대한 정보를 제공
-  - utf-8로 웹 페이지를 열어라!
+2. `<meta>` - 웹 페이지에 대한 정보를 제공
+- utf-8로 웹 페이지를 열어라!
 ```html
 <meta charset="utf-8">
 ```
 
-- `<body>` 와 `<head>` 를 감싸는 `<html>`  
-
-본문은 `<body>` 태그로 묶고, 본문을 설명하는 태그는 `<head>` 로 묶는다.   
+3. `<body>` 와 `<head>` 를 감싸는 `<html>`     
+- 본문은 `<body>` 태그로 묶고, 본문을 설명하는 태그는 `<head>` 로 묶는다.   
 그리고 이 둘을 `<html>` 태그로 감싼다.   
 마지막으로 이 `<html>` 태그 위에 관용적으로 이 문서에는 HTML이 담겨 있다는 뜻에서 `<!DOCTYPE HTML>` 태그를 쓴다.
 ```html
@@ -106,13 +101,13 @@ ex...<br>ex...
 
 ## 4. `<img>` 태그와 속성
 이미지를 웹 페이지에 포함시킬 때 사용하는 태그
-- `<img>` 태그에 src 속성 추가   
+1. `<img>` 태그에 src 속성 추가   
   - 어떤 이미지인지 알려주도록 약속된 속성
 ```html
 <img src="coding.jpg">
 ```
 
-- `<img>` 태그에 width 속성 추가   
+2. `<img>` 태그에 width 속성 추가   
   - 이미지 크기 조절
 ```html
 <img src="coding.jpg" width="100%">
@@ -120,20 +115,20 @@ ex...<br>ex...
 
 ## 5. `<a>` 태그와 속성
 링크를 거는 태그. anchor의 약자. 
-- `<a>` 태그에 href 속성 추가
-  - href는 **H**yperText **Ref**erence의 약자
+1. `<a>` 태그에 href 속성 추가
+- href는 **H**yperText **Ref**erence의 약자
 ```html
 <a href="https://www.w3.org/TR/html5/">Hypertext Markup Language (HTML)</a>
 ```
 
-- `<a>` 태그에 target 속성 추가
-  - 새 탭에서 열리게 해주는 속성
+2. `<a>` 태그에 target 속성 추가
+- 새 탭에서 열리게 해주는 속성
 ```html
 <a href="https://www.w3.org/TR/html5/" target="_blank">Hypertext Markup Language (HTML)</a>
 ```
 
-- `<a>` 태그에 title 속성 추가
-  - 링크를 클릭하기 전에 툴팁을 표시해주는 속성
+3. `<a>` 태그에 title 속성 추가
+- 링크를 클릭하기 전에 툴팁을 표시해주는 속성
 ```html
 <a href="https://www.w3.org/TR/html5/" target="_blank" title="HTML8 specification">Hypertext Markup Language (HTML)</a>
 ```
