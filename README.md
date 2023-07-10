@@ -1,4 +1,4 @@
-# WEB - HTML
+# HTML
 - [HTML 강의](https://www.opentutorials.org/course/3084)
 
 본 강의를 통해 HTML을 학습하고 정리한 내용입니다.
